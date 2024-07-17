@@ -17,6 +17,13 @@
 		AF1BD09E2C47BE4700D4B9F3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BD09D2C47BE4700D4B9F3 /* UserData.swift */; };
 		AF1BD0A02C47BE5C00D4B9F3 /* BirthDateInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BD09F2C47BE5C00D4B9F3 /* BirthDateInputView.swift */; };
 		AF1BD0A22C47BEB300D4B9F3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BD0A12C47BEB300D4B9F3 /* CalendarView.swift */; };
+		AF1BD0AA2C47CBF500D4B9F3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1BD0A92C47CBF500D4B9F3 /* WidgetKit.framework */; };
+		AF1BD0AC2C47CBF500D4B9F3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1BD0AB2C47CBF500D4B9F3 /* SwiftUI.framework */; };
+		AF1BD0AF2C47CBF500D4B9F3 /* MementoMoriWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BD0AE2C47CBF500D4B9F3 /* MementoMoriWidgetBundle.swift */; };
+		AF1BD0B32C47CBF500D4B9F3 /* MementoMoriWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BD0B22C47CBF500D4B9F3 /* MementoMoriWidget.swift */; };
+		AF1BD0B52C47CBF500D4B9F3 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1BD0B42C47CBF500D4B9F3 /* AppIntent.swift */; };
+		AF1BD0B72C47CBF700D4B9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1BD0B62C47CBF700D4B9F3 /* Assets.xcassets */; };
+		AF1BD0BB2C47CBF700D4B9F3 /* MementoMoriWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AF1BD0A72C47CBF500D4B9F3 /* MementoMoriWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +41,28 @@
 			remoteGlobalIDString = AF1BD06F2C47BC4800D4B9F3;
 			remoteInfo = "Memento Mori";
 		};
+		AF1BD0B92C47CBF700D4B9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1BD0682C47BC4800D4B9F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1BD0A62C47CBF500D4B9F3;
+			remoteInfo = MementoMoriWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF1BD0BC2C47CBF700D4B9F3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF1BD0BB2C47CBF700D4B9F3 /* MementoMoriWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF1BD0702C47BC4800D4B9F3 /* Memento Mori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memento Mori.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +78,14 @@
 		AF1BD09D2C47BE4700D4B9F3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		AF1BD09F2C47BE5C00D4B9F3 /* BirthDateInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDateInputView.swift; sourceTree = "<group>"; };
 		AF1BD0A12C47BEB300D4B9F3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		AF1BD0A72C47CBF500D4B9F3 /* MementoMoriWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MementoMoriWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1BD0A92C47CBF500D4B9F3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AF1BD0AB2C47CBF500D4B9F3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AF1BD0AE2C47CBF500D4B9F3 /* MementoMoriWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoMoriWidgetBundle.swift; sourceTree = "<group>"; };
+		AF1BD0B22C47CBF500D4B9F3 /* MementoMoriWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoMoriWidget.swift; sourceTree = "<group>"; };
+		AF1BD0B42C47CBF500D4B9F3 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		AF1BD0B62C47CBF700D4B9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF1BD0B82C47CBF700D4B9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +110,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF1BD0A42C47CBF500D4B9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1BD0AC2C47CBF500D4B9F3 /* SwiftUI.framework in Frameworks */,
+				AF1BD0AA2C47CBF500D4B9F3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +128,8 @@
 				AF1BD0722C47BC4800D4B9F3 /* Memento Mori */,
 				AF1BD0832C47BC4B00D4B9F3 /* Memento MoriTests */,
 				AF1BD08D2C47BC4B00D4B9F3 /* Memento MoriUITests */,
+				AF1BD0AD2C47CBF500D4B9F3 /* MementoMoriWidget */,
+				AF1BD0A82C47CBF500D4B9F3 /* Frameworks */,
 				AF1BD0712C47BC4800D4B9F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +140,7 @@
 				AF1BD0702C47BC4800D4B9F3 /* Memento Mori.app */,
 				AF1BD0802C47BC4B00D4B9F3 /* Memento MoriTests.xctest */,
 				AF1BD08A2C47BC4B00D4B9F3 /* Memento MoriUITests.xctest */,
+				AF1BD0A72C47CBF500D4B9F3 /* MementoMoriWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +184,27 @@
 			path = "Memento MoriUITests";
 			sourceTree = "<group>";
 		};
+		AF1BD0A82C47CBF500D4B9F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF1BD0A92C47CBF500D4B9F3 /* WidgetKit.framework */,
+				AF1BD0AB2C47CBF500D4B9F3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1BD0AD2C47CBF500D4B9F3 /* MementoMoriWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AF1BD0AE2C47CBF500D4B9F3 /* MementoMoriWidgetBundle.swift */,
+				AF1BD0B22C47CBF500D4B9F3 /* MementoMoriWidget.swift */,
+				AF1BD0B42C47CBF500D4B9F3 /* AppIntent.swift */,
+				AF1BD0B62C47CBF700D4B9F3 /* Assets.xcassets */,
+				AF1BD0B82C47CBF700D4B9F3 /* Info.plist */,
+			);
+			path = MementoMoriWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,10 +215,12 @@
 				AF1BD06C2C47BC4800D4B9F3 /* Sources */,
 				AF1BD06D2C47BC4800D4B9F3 /* Frameworks */,
 				AF1BD06E2C47BC4800D4B9F3 /* Resources */,
+				AF1BD0BC2C47CBF700D4B9F3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AF1BD0BA2C47CBF700D4B9F3 /* PBXTargetDependency */,
 			);
 			name = "Memento Mori";
 			productName = "Memento Mori";
@@ -192,6 +263,23 @@
 			productReference = AF1BD08A2C47BC4B00D4B9F3 /* Memento MoriUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AF1BD0A62C47CBF500D4B9F3 /* MementoMoriWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1BD0BF2C47CBF700D4B9F3 /* Build configuration list for PBXNativeTarget "MementoMoriWidgetExtension" */;
+			buildPhases = (
+				AF1BD0A32C47CBF500D4B9F3 /* Sources */,
+				AF1BD0A42C47CBF500D4B9F3 /* Frameworks */,
+				AF1BD0A52C47CBF500D4B9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MementoMoriWidgetExtension;
+			productName = MementoMoriWidgetExtension;
+			productReference = AF1BD0A72C47CBF500D4B9F3 /* MementoMoriWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +301,9 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = AF1BD06F2C47BC4800D4B9F3;
 					};
+					AF1BD0A62C47CBF500D4B9F3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 				};
 			};
 			buildConfigurationList = AF1BD06B2C47BC4800D4B9F3 /* Build configuration list for PBXProject "Memento Mori" */;
@@ -231,6 +322,7 @@
 				AF1BD06F2C47BC4800D4B9F3 /* Memento Mori */,
 				AF1BD07F2C47BC4B00D4B9F3 /* Memento MoriTests */,
 				AF1BD0892C47BC4B00D4B9F3 /* Memento MoriUITests */,
+				AF1BD0A62C47CBF500D4B9F3 /* MementoMoriWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +348,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1BD0A52C47CBF500D4B9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1BD0B72C47CBF700D4B9F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +391,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF1BD0A32C47CBF500D4B9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1BD0AF2C47CBF500D4B9F3 /* MementoMoriWidgetBundle.swift in Sources */,
+				AF1BD0B52C47CBF500D4B9F3 /* AppIntent.swift in Sources */,
+				AF1BD0B32C47CBF500D4B9F3 /* MementoMoriWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -303,6 +413,11 @@
 			isa = PBXTargetDependency;
 			target = AF1BD06F2C47BC4800D4B9F3 /* Memento Mori */;
 			targetProxy = AF1BD08B2C47BC4B00D4B9F3 /* PBXContainerItemProxy */;
+		};
+		AF1BD0BA2C47CBF700D4B9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1BD0A62C47CBF500D4B9F3 /* MementoMoriWidgetExtension */;
+			targetProxy = AF1BD0B92C47CBF700D4B9F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,6 +544,7 @@
 		AF1BD0952C47BC4B00D4B9F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -460,6 +576,7 @@
 		AF1BD0962C47BC4B00D4B9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -560,6 +677,62 @@
 			};
 			name = Release;
 		};
+		AF1BD0BD2C47CBF700D4B9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3RR7Q3QN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MementoMoriWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MementoMoriWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haveeehr.Memento-Mori.MementoMoriWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF1BD0BE2C47CBF700D4B9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3RR7Q3QN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MementoMoriWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MementoMoriWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haveeehr.Memento-Mori.MementoMoriWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,6 +768,15 @@
 			buildConfigurations = (
 				AF1BD09B2C47BC4B00D4B9F3 /* Debug */,
 				AF1BD09C2C47BC4B00D4B9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1BD0BF2C47CBF700D4B9F3 /* Build configuration list for PBXNativeTarget "MementoMoriWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1BD0BD2C47CBF700D4B9F3 /* Debug */,
+				AF1BD0BE2C47CBF700D4B9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
